@@ -1,0 +1,47 @@
+body {
+  scroll-behavior: smooth;
+  font-family: Arial, sans-serif;
+}
+
+.hero-img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border: 5px solid cyan;
+}
+
+.skill-card {
+  background-color: #111;
+  border-radius: 15px;
+  transition: 0.4s;
+}
+
+.skill-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 0px 20px cyan;
+}
+
+.project-card {
+  transition: 0.4s;
+}
+
+.project-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 0px 20px cyan;
+}
+
+section {
+  padding-top: 80px;
+}
+
+input,
+textarea {
+  background-color: #111 !important;
+  color: white !important;
+  border: 1px solid gray !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: lightgray !important;
+}
